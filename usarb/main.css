@@ -1,0 +1,120 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+i {
+    font-size:14px;
+    color:orange;
+    display: inline-block;
+}
+
+.phone {
+    font-size: 14px;
+    color: white;
+}
+
+.topheader {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    background-color: #49688e;
+}
+
+.headerlinks {
+    float:right;
+    margin: 7px 24px 7px 0px;
+}
+
+.selectheader{
+    border: 1px solid #dddddd;
+    color: white;
+    font-size: 14px;
+    width: 100;
+    padding: 0px 40px 0px 10px;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url('images/down-arrow.png') no-repeat right center;
+}
+
+.selectheader option {
+    color: black;
+}
+
+.headerimg {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu {
+  background: #49688e;
+}
+.topmenu li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.topmenu li a:hover { color: orange; }
+
+.submenu {
+  background: #49688e;
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  width: 185px;
+}
+
+.topmenu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+  
+}
+.submenu li a {   
+    color: white;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0 25px;
+}
+
+.news {
+    margin: 0px 0px 20px 0px;
+}
+
+.new {
+    border: 1px solid #dddddd;
+    display: inline-block;
+    margin: 10px 20px 0px 20px;
+    width: 30%;
+}
+
+.newimg {
+     width: 100%;
+}
+
+.newtitle {
+    width: 100%;
+    background-color: gainsboro;
+}
